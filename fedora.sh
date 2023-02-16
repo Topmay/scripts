@@ -14,4 +14,4 @@ sudo dnf config-manager --add-repo https://brave-browser-rpm-release.s3.brave.co
 sudo rpm --import https://brave-browser-rpm-release.s3.brave.com/brave-core.asc
 sudo dnf install brave-browser
 #Packages to install
-sudo dnf install pfetch zsh neofetch qbittorrent mpv gnome-tweaks yt-dlp btop vlc gdu
+sudo dnf install pfetch zsh neovim qbittorrent mpv gnome-tweaks yt-dlp btop vlc gdu
