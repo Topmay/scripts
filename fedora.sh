@@ -1,4 +1,3 @@
-#This is a list of commands that I usually run after installing Fedora
 #adding repos
 sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
@@ -15,4 +14,4 @@ sudo dnf config-manager --add-repo https://brave-browser-rpm-release.s3.brave.co
 sudo rpm --import https://brave-browser-rpm-release.s3.brave.com/brave-core.asc
 sudo dnf install brave-browser
 #Packages to install
-sudo dnf install neovim zsh neofetch qbittorrent mpv gnome-tweaks yt-dlp htop
+sudo dnf install pfetch zsh neofetch qbittorrent mpv gnome-tweaks yt-dlp btop vlc gdu
